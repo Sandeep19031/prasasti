@@ -1,0 +1,13 @@
+@import "../../Theme/_var.scss";
+
+.primary-layout {
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    background-size: 100% 100%;
+  }
+}

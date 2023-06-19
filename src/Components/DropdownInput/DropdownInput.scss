@@ -1,0 +1,26 @@
+@import "../../Theme/_var.scss";
+
+
+#light .DropdownInput {
+    background-color: $light;
+    border-color: $dark;
+    width: 50%;
+    color: $dark;
+}
+
+#dark .DropdownInput {
+    background-color: $dark;
+    border-color: $light;
+    width: 50%;
+    color: $light;
+
+}
+
+.classSelectContract {
+    display: flex;
+    justify-content: center;
+}
+
+#selectContractType, #selectContract {
+    width: 80%;
+}

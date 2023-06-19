@@ -1,0 +1,23 @@
+@import "../../../Theme/_var.scss";
+
+.connect-wallet {
+  padding: 2.5rem;
+  li {
+    border-radius: 30px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    background-color: $borderColor-3;
+    transition: all 0.25s linear;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.7;
+    }
+    &:not(:last-child) {
+      margin-bottom: 1.2rem;
+    }
+    img {
+      margin-right: 1.5rem;
+    }
+  }
+}

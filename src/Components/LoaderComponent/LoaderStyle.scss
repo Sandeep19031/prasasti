@@ -1,0 +1,14 @@
+@import "../../Theme/_var.scss";
+
+.loader-style {
+  position: fixed;
+  z-index: 111;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0000003d;
+}

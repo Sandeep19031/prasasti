@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$baseFont: "Poppins", sans-serif;
+
+$baseColor: #2f3333;
+$link-color: #09b2e2;
+$white: #fff;
+$dark: #302828;
+$dark-light: rgba(0, 0, 0, 0.5);
+$dark-light-2: rgba(48, 40, 40, 0.5);
+$lightBlack: rgba(0, 0, 0, 0.3);
+$light: #fff;
+
+$gradient: linear-gradient(270deg, #ff416c 0%, #655eec  100%);
+$gradient-2: linear-gradient(
+  28deg,
+  rgba(0, 171, 230, 0.3) 0%,
+  rgba(98, 246, 190, 0.3) 100%
+);
+$gradient-3: linear-gradient(
+  284deg,
+  rgba(0, 171, 230, 0.7) 0%,
+  rgba(98, 246, 190, 0.7) 100%
+);
+
+$borderColor: #161818;
+$borderColor-2: rgba(9, 178, 226, 0.6);
+$borderColor-3: #e8e8e8;

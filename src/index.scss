@@ -1,0 +1,151 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./Theme/_var.scss";
+
+body {
+  margin: 0;
+  font-family: $baseFont, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html {
+  font-size: 62.666%;
+}
+body {
+  font-size: 1.6rem;
+  color: $dark;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+img,
+svg {
+  max-width: 100%;
+}
+
+.container {
+     height: 100%;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+h5 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+a {
+  color: $link-color;
+}
+
+.light-gray {
+  color: $dark-light-2;
+}
+
+.content-list {
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    flex: 0 0 50%;
+    font-size: 1.4rem;
+    word-break: break-all;
+    padding-right: 1rem;
+    span {
+      display: block;
+    }
+    &:not(:last-child) {
+      margin-bottom: 1.7rem;
+    }
+  }
+  &__title {
+    color: $dark;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  &__data {
+    color: $dark-light;
+    font-weight: 400;
+  }
+}
+// prefixes
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.selector {
+  position: relative;
+  .css-1s2u09g-control {
+    position: absolute;
+    width: 100%;
+    top: 29px;
+    &:active {
+      border-color: rgba(9, 178, 226, 0.6);
+    }
+  }
+  .css-6j8wv5-Input {
+    height: 40px;
+  }
+  .css-1padxg-control {
+    position: absolute;
+    width: 100%;
+    top: 29px;
+  }
+  h6 {
+    color: #302828;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .css-b62m3t-container {
+    position: unset;
+  }
+  select.form-select {
+    min-height: 54px;
+    height: 100%;
+    font-size: 15px;
+    color: grey;
+    option {
+      color: black;
+    }
+  }
+  label {
+    color: $dark;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+  }
+}
