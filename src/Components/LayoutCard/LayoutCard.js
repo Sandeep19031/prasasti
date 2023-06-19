@@ -1,5 +1,4 @@
 import React from "react";
-import powerby_img from "../../Theme/Assets/Images/powerby_img.png";
 import "./LayoutCard.scss";
 
 const LayoutCard = ({ title, children }) => {
